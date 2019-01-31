@@ -6,6 +6,8 @@
     <script type="text/javascript" src="functions.js"></script>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   </head>
   <header>
     <div class="header-pic">
@@ -15,6 +17,21 @@
   </header>
   <body onload="onLoad()">
     <h1>Posts</h1>
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="modTitle"></h4>
+          </div>
+          <div class="modal-body">
+            <p id="desc">
+            </p>
+            <h6 id="userID"></h6>
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="results">
     </div>
   </body>
