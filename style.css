@@ -1,0 +1,54 @@
+/* Global Layout Set-up */
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  background: #f7f5f0;
+  
+}
+
+
+header img {
+  justify-content: center;
+  width: 15em;
+}
+
+
+/******* Body **********/
+
+
+#line {
+  background:#222;
+  padding: 0 0 5px 4px;
+  margin-top: -8px;
+}
+
+
+
+ul {
+  width: 20em;
+  height: 25em;
+  display: inline-grid;
+}
+
+a:link, a:visited { 
+  color: (internal value);
+  text-decoration: underline;
+  cursor: auto;
+}
+
+a:link:active, a:visited:active { 
+  color: (internal value);
+}
+
+/******* Footer **********/
+
+footer {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 10px;
+   
+}
